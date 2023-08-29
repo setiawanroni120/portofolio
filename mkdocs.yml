@@ -1,0 +1,59 @@
+site_name: Roni Setiawan - Portofolio
+theme:
+  name: material
+  language: en
+  favicon: assets/images/icon.png
+  logo: assets/images/icon.png
+  # Font Refs = https://fonts.google.com/
+  font:
+    text: Open Sans
+  # Toggle Mode Refs = https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
+  palette:
+    # Toogle Switch Dark/Light
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Pindah Mode Gelap
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Pindah Mode Terang
+  features:
+    - navigation.expand
+    - navigation.top
+    - content.tooltips
+    - content.code.annotate
+  icon:
+    annotation: material/arrow-right-circle
+# Footer Copyright & Icon
+copyright: Copyright &copy; Agustus 2023 - Roni Setiawan
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:setiawanroni120@gmail.com
+    - icon: fontawesome/solid/phone-volume
+      link: tel:+62 822-8212-0500
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ronii_setiawann
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/ronii_setiawann
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/ronisetiawan
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/setiawanroni120
+    - icon: fontawesome/brands/github
+      link: https://github.com/setiawanroni120
+# Extention plugin for mkdocs
+markdown_extensions:
+  - abbr
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.emoji
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
