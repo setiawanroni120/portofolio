@@ -178,3 +178,9 @@ You can also deploy your **Mkdocs Project** into `GitLab Page` or `GitHub Page`
 a.  Using **Gitlab CI Pipeline** to deploy into `GitLab Page`. **[See detail `.gitlab-ci.yml`](/.gitlab-ci.yml)**
 
 b.  Using **GitHub Workflow** to deploy into `GitHub Page`. **[See detail `.github/workflows/ci.yml`](/.github/workflows/ci.yml)**
+
+## See Live Demo
+
+**[Live Demo at GitLab](https://setiawanroni120.gitlab.io/portofolio/)**
+
+**[Live Demo at GitHub](https://setiawanroni120.github.io/portofolio/)**
