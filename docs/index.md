@@ -191,4 +191,4 @@ _"PT Versa Technology is an information technology focused company. We are putti
 
 ## Online Portofolio
 [Portofolio via GitLab :simple-gitlab:](https://setiawanroni120.gitlab.io/portofolio){ target=blank .md-button }
-[Portofolio via GitHub :simple-gitlab:](https://setiawanroni120.github.io/portofolio){ target=blank .md-button }
+[Portofolio via GitHub :simple-github:](https://setiawanroni120.github.io/portofolio){ target=blank .md-button }
